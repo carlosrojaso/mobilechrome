@@ -1,22 +1,22 @@
-/* CSS file placeholder. */
-
-html {
+html, body {
   height: 100%;
+  margin: 0;
+  background-color: #E5E5E5;
 }
 
 body {
-  height: 100%;
-  margin: 0;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  overflow: auto;
+  font-family: "Lucida Grande", Verdana, Helvetica, Arial, Sans-serif;
 }
 
-div {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
+core-header-panel {
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+core-toolbar {
+  background: #03a9f4;
+  color: white;
+  font-size: 48px;
 }
