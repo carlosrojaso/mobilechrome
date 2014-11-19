@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Eh",
+  "short_name": "Eh",
+  "description": "Eh workshop",
+
+  "version": "0.0.1",
+
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "128": "assets/icons/icon128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+
+  "permissions": [
+    "<all_urls>"
+  ]
+}
